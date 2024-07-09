@@ -1,0 +1,57 @@
+.card {
+	width: 150px;
+	height: 200px;
+	background-color: transparent;
+	perspective: 1000px;
+}
+
+.card-logo {
+	width: 100%;
+	height: 100%;
+}
+
+.card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+	transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.card-back {
+	transform: rotateY(180deg);
+	width: 150px;
+	height: 200px;
+	background-color: rgb(255, 241, 169);
+	border-radius: 10px;
+	border: 4px solid #eeeeee;
+	margin: 5px;
+}
+
+.card-front {
+	width: 150px;
+	height: 200px;
+	background-color: rgb(255, 241, 169);
+	border-radius: 10px;
+	border: 4px solid #eeeeee;
+	margin: 5px;
+}
+
+.card-image {
+	width: 100%;
+	height: auto;
+}
