@@ -1,32 +1,122 @@
 [
-	{ "species": "Tyrannosaurus Rex", "image": "image_placeholder" },
-	{ "species": "Velociraptor", "image": "image_placeholder" },
-	{ "species": "Triceratops", "image": "image_placeholder" },
-	{ "species": "Stegosaurus", "image": "image_placeholder" },
-	{ "species": "Brachiosaurus", "image": "image_placeholder" },
-	{ "species": "Allosaurus", "image": "image_placeholder" },
-	{ "species": "Spinosaurus", "image": "image_placeholder" },
-	{ "species": "Diplodocus", "image": "image_placeholder" },
-	{ "species": "Ankylosaurus", "image": "image_placeholder" },
-	{ "species": "Parasaurolophus", "image": "image_placeholder" },
-	{ "species": "Pteranodon", "image": "image_placeholder" },
-	{ "species": "Apatosaurus", "image": "image_placeholder" },
-	{ "species": "Carnotaurus", "image": "image_placeholder" },
-	{ "species": "Giganotosaurus", "image": "image_placeholder" },
-	{ "species": "Iguanodon", "image": "image_placeholder" },
-	{ "species": "Therizinosaurus", "image": "image_placeholder" },
-	{ "species": "Oviraptor", "image": "image_placeholder" },
-	{ "species": "Baryonyx", "image": "image_placeholder" },
-	{ "species": "Compsognathus", "image": "image_placeholder" },
-	{ "species": "Sinosauropteryx", "image": "image_placeholder" },
-	{ "species": "Pachycephalosaurus", "image": "image_placeholder" },
-	{ "species": "Archaeopteryx", "image": "image_placeholder" },
-	{ "species": "Protoceratops", "image": "image_placeholder" },
-	{ "species": "Albertosaurus", "image": "image_placeholder" },
-	{ "species": "Megalosaurus", "image": "image_placeholder" },
-	{ "species": "Dilophosaurus", "image": "image_placeholder" },
-	{ "species": "Argentinosaurus", "image": "image_placeholder" },
-	{ "species": "Coelophysis", "image": "image_placeholder" },
-	{ "species": "Kentrosaurus", "image": "image_placeholder" },
-	{ "species": "Plateosaurus", "image": "image_placeholder" }
+	{
+		"species": "Tyrannosaurus Rex",
+		"image": "../src/assets/dino-images/Tyrannosaurus-Rex.webp"
+	},
+	{
+		"species": "Velociraptor",
+		"image": "../src/assets/dino-images/Velociraptor.webp"
+	},
+	{
+		"species": "Triceratops",
+		"image": "../src/assets/dino-images/Triceratops.webp"
+	},
+	{
+		"species": "Stegosaurus",
+		"image": "../src/assets/dino-images/Stegosaurus.webp"
+	},
+	{
+		"species": "Brachiosaurus",
+		"image": "../src/assets/dino-images/Brachiosaurus.webp"
+	},
+	{
+		"species": "Allosaurus",
+		"image": "../src/assets/dino-images/Allosaurus.webp"
+	},
+	{
+		"species": "Spinosaurus",
+		"image": "../src/assets/dino-images/Spinosaurus.webp"
+	},
+	{
+		"species": "Diplodocus",
+		"image": "../src/assets/dino-images/Diplodocus.webp"
+	},
+	{
+		"species": "Ankylosaurus",
+		"image": "../src/assets/dino-images/Ankylosaurus.webp"
+	},
+	{
+		"species": "Parasaurolophus",
+		"image": "../src/assets/dino-images/Parasaurolophus.webp"
+	},
+	{
+		"species": "Pteranodon",
+		"image": "../src/assets/dino-images/Pteranodon.webp"
+	},
+	{
+		"species": "Apatosaurus",
+		"image": "../src/assets/dino-images/Apatosaurus.webp"
+	},
+	{
+		"species": "Carnotaurus",
+		"image": "../src/assets/dino-images/Carnotaurus.webp"
+	},
+	{
+		"species": "Giganotosaurus",
+		"image": "../src/assets/dino-images/Giganotosaurus.webp"
+	},
+	{
+		"species": "Iguanodon",
+		"image": "../src/assets/dino-images/Iguanodon.webp"
+	},
+	{
+		"species": "Therizinosaurus",
+		"image": "../src/assets/dino-images/Therizinosaurus.webp"
+	},
+	{
+		"species": "Oviraptor",
+		"image": "../src/assets/dino-images/Oviraptor.webp"
+	},
+	{
+		"species": "Baryonyx",
+		"image": "../src/assets/dino-images/Baryonyx.webp"
+	},
+	{
+		"species": "Compsognathus",
+		"image": "../src/assets/dino-images/Compsognathus.webp"
+	},
+	{
+		"species": "Sinosauropteryx",
+		"image": "../src/assets/dino-images/Sinosauropteryx.webp"
+	},
+	{
+		"species": "Pachycephalosaurus",
+		"image": "../src/assets/dino-images/Pachycephalosaurus.webp"
+	},
+	{
+		"species": "Archaeopteryx",
+		"image": "../src/assets/dino-images/Archaeopteryx.webp"
+	},
+	{
+		"species": "Protoceratops",
+		"image": "../src/assets/dino-images/Protoceratops.webp"
+	},
+	{
+		"species": "Albertosaurus",
+		"image": "../src/assets/dino-images/Albertosaurus.webp"
+	},
+	{
+		"species": "Megalosaurus",
+		"image": "../src/assets/dino-images/Megalosaurus.webp"
+	},
+	{
+		"species": "Dilophosaurus",
+		"image": "../src/assets/dino-images/Dilophosaurus.webp"
+	},
+	{
+		"species": "Argentinosaurus",
+		"image": "../src/assets/dino-images/Argentinosaurus.webp"
+	},
+	{
+		"species": "Coelophysis",
+		"image": "../src/assets/dino-images/Coelophysis.webp"
+	},
+	{
+		"species": "Kentrosaurus",
+		"image": "../src/assets/dino-images/Kentrosaurus.webp"
+	},
+	{
+		"species": "Plateosaurus",
+		"image": "../src/assets/dino-images/Plateosaurus.webp"
+	}
 ]

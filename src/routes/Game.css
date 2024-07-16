@@ -1,4 +1,13 @@
 .game-bg {
 	width: 100vw;
 	height: 100vh;
+	padding-top: 1em;
+}
+
+.card-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 0.2em 0.2em;
+	margin: 1em;
 }
