@@ -50,3 +50,8 @@
 	width: 100%;
 	height: auto;
 }
+
+.species-text {
+	margin: 0;
+	line-height: 1;
+}

@@ -1,11 +1,10 @@
 import "./Button.css"
-import { Link } from "react-router-dom"
 
-function Button({ to, children }) {
+function Button({ onClick, children }) {
 	return (
-		<Link to={to} className="button">
+		<button onClick={onClick} className="button">
 			<p>{children}</p>
-		</Link>
+		</button>
 	)
 }
 

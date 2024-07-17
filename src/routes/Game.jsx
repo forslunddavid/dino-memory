@@ -1,5 +1,6 @@
 // Game.jsx
 import { useEffect, useState } from "react"
+import { useLocation, useParams } from "react-router-dom"
 import background from "../assets/wood-background.jpg"
 import "./Game.css"
 import "../components/Card.css"
@@ -31,6 +32,8 @@ const createNewGame = (dinosaurs) => {
 }
 
 function Game() {
+	const { state } = useLocation()
+	const { gameId } = useParams()
 	const [firstCard, setFirstCard] = useState(null)
 	const [secondCard, setSecondCard] = useState(null)
 	const [cardDeck, setCardDeck] = useState([])
@@ -98,6 +101,25 @@ function Game() {
 							image={dino.image}
 						/>
 					))}
+				</div>
+				<div className="game-data">
+					<>
+						{state && (
+							<p>
+								Player 1: {state.player1Name} Points:{" "}
+								{state.player1Points}
+							</p>
+						)}
+					</>
+					<>
+						{state && (
+							<p>
+								{" "}
+								Player 2: {state.player2Name} Points:{" "}
+								{state.player2Points}
+							</p>
+						)}
+					</>
 				</div>
 			</div>
 		</>

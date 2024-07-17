@@ -16,7 +16,7 @@ function Card({ species, image, flipped, onClick }) {
 					</div>
 					<div className="card-back">
 						<img className="card-image" src={image} alt={species} />
-						<p>{species}</p>
+						<p className="species-text">{species}</p>
 					</div>
 				</div>
 			</div>

@@ -1,26 +1,44 @@
-// import { useEffect, useState } from "react"
-// import "./App.css"
-// import { getDino } from "./utils/getDino.js"
-import Button from "../components/Button"
+import { Link } from "react-router-dom"
+import "./Start.css"
+import background from "../assets/wood-background-with-cards.jpg"
 
 function Start() {
-	// const [dinoNames, setDinoNames] = useState([])
-	// const [dinoImage, setDinoImage] = useState()
-
-	// useEffect(() => {
-	// 	async function fetchDinos() {
-	// 		const names = await getDino()
-	// 		setDinoNames(names)
-	//     setDinoImage(image)
-	// 	}
-	// 	fetchDinos() // Invoke the fetchDinos function here
-	// }, dinosaurs[])
-
 	return (
-		<section>
-			<Button to="/create-game">Skapa nytt spel</Button>
-			<Button to="/join-game">Anslut till spel</Button>
-		</section>
+		<>
+			<div
+				className="game-bg"
+				style={{ backgroundImage: `url(${background})` }}
+			>
+				<div className="welcome-wrapper">
+					<section className="welcome-section">
+						<h1>Welcome to Dino Memory</h1>
+						<p className="paragraph">
+							This is a online multiplayer game to learn your
+							dinosaurs
+						</p>
+						<p className="paragraph">
+							to create a game just click the create game button
+							and enter your name
+						</p>
+						<p className="paragraph">
+							to join a friend click join game, enter your name
+							and the game-id that your friend gives you.
+						</p>
+					</section>
+					<section className="button-section">
+						<Link
+							className="button start-buttons"
+							to="/create-game"
+						>
+							Skapa nytt spel
+						</Link>
+						<Link className="button start-buttons" to="/join-game">
+							Anslut till spel
+						</Link>
+					</section>
+				</div>
+			</div>
+		</>
 	)
 }
 

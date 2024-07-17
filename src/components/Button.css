@@ -5,10 +5,11 @@
 	padding: 4px 0;
 	box-sizing: border-box;
 	border-radius: 8px;
-	color: black;
-	background-color: hotpink;
+	color: #2f2f2f;
+	background-color: #ebe0cc;
 	display: block;
 	text-align: center;
+	border: 2px solid #2f2f2f;
 }
 
 .button p {
