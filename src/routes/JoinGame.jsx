@@ -2,6 +2,7 @@ import Button from "../components/Button"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import background from "../assets/wood-background-with-cards.jpg"
+import "./JoinGame.css"
 
 function JoinGame() {
 	const [player2Name, setPlayer2Name] = useState("")
@@ -22,24 +23,29 @@ function JoinGame() {
 				style={{ backgroundImage: `url(${background})` }}
 			>
 				<div className="welcome-wrapper">
-					<label>
-						Namn{" "}
+					<h3>Join a game</h3>
+
+					<label className="join-game-label">
+						<p>Namn</p>
 						<input
+							className="join-game-input"
 							type="text"
 							value={player2Name}
 							onChange={(e) => setPlayer2Name(e.target.value)}
 						/>
 					</label>
-					<label>
-						{" "}
-						Spel-id{" "}
+					<label className="join-game-label">
+						<p>Spel-id </p>
 						<input
+							className="join-game-input"
 							type="text"
 							value={gameId}
 							onChange={(e) => setGameId(e.target.value)}
 						/>
 					</label>
-					<Button onClick={handleJoinGame}>Anslut till spel</Button>
+					<div className="join-game-button">
+						<Button onClick={handleJoinGame}>Join game</Button>
+					</div>
 				</div>
 			</div>
 		</>

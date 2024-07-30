@@ -17,12 +17,16 @@ function Start() {
 							dinosaurs
 						</p>
 						<p className="paragraph">
-							to create a game just click the create game button
+							To create a game just click the create game button
 							and enter your name
 						</p>
 						<p className="paragraph">
-							to join a friend click join game, enter your name
+							To join a friend click join game, enter your name
 							and the game-id that your friend gives you.
+						</p>
+						<p className="paragraph">
+							The game is not optimized for smaller
+							screens(mobile).
 						</p>
 					</section>
 					<section className="button-section">
@@ -30,10 +34,10 @@ function Start() {
 							className="button start-buttons"
 							to="/create-game"
 						>
-							Skapa nytt spel
+							Create new game
 						</Link>
 						<Link className="button start-buttons" to="/join-game">
-							Anslut till spel
+							Join Game
 						</Link>
 					</section>
 				</div>
